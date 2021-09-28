@@ -1,0 +1,47 @@
+input{
+        height: 40px;
+        width: 400px;
+        text-align: center;        
+}
+input[type=submit]{
+        height: 40px;
+        width: 100px;
+}
+ul#listado{
+        height: 100px;
+        width: 525px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-left: 20px;
+        padding-top: 0px;
+        }
+#listado li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        color: black;
+        background-color: white;
+        margin-top: 10px;
+        padding-top: 0px;
+        border: 0.1rem gray solid;
+        border-radius:3px;
+        margin-right: 19px;
+}
+input:checked + p{
+        text-decoration: line-through;
+}
+ button{
+        background-color:transparent;
+        border-color:white;
+        border: none;
+}
+input[type=checkbox]{
+        width: 20px;
+        height: 20px;
+        margin: 15px 10px;
+}
+
+       

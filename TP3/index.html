@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Trabajo Practico 2 </title>
+        <link rel= "stylesheet" href="styless.css">
+        <script src="https://kit.fontawesome.com/fcb22938ef.js"></script>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">    
+    </head>
+    <body >
+        <center>
+            <div class="contenedor"  >
+                <header>
+                    <div class="header">
+                        <h2> Lista de tareas de Valentina </h2><button id="full" onclick="Fullscreen()"><i class="fas fa-expand"></i></button> 
+                    </div>  
+                </header>
+                <div id="addtask">
+                    <input type="text" name="nuevatarea" placeholder="Ingrese la tarea..." autofocus> 
+                    <button  id="btn" onclick="agregarbtn()"><i class="fas fa-check"></i> </button>
+                </div>
+                <h id="divider">___________________________________________________________________</h>
+                <ul id="listado">
+                    
+                </ul> 
+            </div>
+        </center>
+        <script src="eventos.js"></script>
+    </body>
+</html>
